@@ -19,7 +19,7 @@ There is no need to add HTML to your document to display the suggestion menu. An
 
 Usage
 -----
-  jQuery.fn.suggestions(params)
+    jQuery.fn.suggestions(params)
   
 Parameters
 ----------
