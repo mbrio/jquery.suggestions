@@ -5,10 +5,11 @@ Requirements
 ------------
 * The current version of jquery.suggestions was developed using [jQuery](http://jquery.com) 1.6.2.
 * A JS [localStorage polyfill](https://gist.github.com/350433)
+* A [CoffeeScript](http://jashkenas.github.com/coffee-script/) compiler
 
 Introduction
 ------------
-jquery.suggestions is a library that enables AJAX autocomplete backed by a localStorage cache for text input fields.
+jquery.suggestions is a library written in CoffeeScript that enables AJAX autocomplete backed by a localStorage cache for text input fields.
 
 Usage
 -----
