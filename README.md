@@ -11,6 +11,12 @@ Introduction
 ------------
 jquery.suggestions is a library written in CoffeeScript that enables AJAX autocomplete backed by a localStorage cache for text input fields.
 
+There is no need to add HTML to your document to display the suggestion menu. An `<ol>` element will be generated and placed within the `document.body` element.
+  
+  <ol class="s-l" style="display: none; position: absolute; z-index: 500; ">
+    <li class="s-lie">Start typing for suggestions</li>
+  </ol>
+
 Usage
 -----
   jQuery.fn.suggestions(params)
