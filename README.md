@@ -13,9 +13,9 @@ jquery.suggestions is a library written in CoffeeScript that enables AJAX autoco
 
 There is no need to add HTML to your document to display the suggestion menu. An `<ol>` element will be generated and placed within the `document.body` element.
   
-  <ol class="s-l" style="display: none; position: absolute; z-index: 500; ">
-    <li class="s-lie">Start typing for suggestions</li>
-  </ol>
+    <ol class="s-l" style="display: none; position: absolute; z-index: 500; ">
+      <li class="s-lie">Start typing for suggestions</li>
+    </ol>
 
 Usage
 -----
@@ -47,9 +47,9 @@ Parameters
 
 Example
 -------
-  $("#search").suggestions({
-    url: 'autocomplete.json?q=:query',
-  });
+    $("#search").suggestions({
+      url: 'autocomplete.json?q=:query',
+    });
 
 REST API Results
 ----------------
@@ -57,12 +57,12 @@ When retrieving data from a REST API you must return a JSON formatted response f
 
 The JSON data must be formatted as follows:
 
-  {
-    "nodes": [
-      { "name": "Alabama" },
-      { "name": "Alaska" },
-      { "name": "American Samoa" },
-      { "name": "Arizona" },
-      { "name": "Arkansas" }
-    ]
-  }
+    {
+      "nodes": [
+        { "name": "Alabama" },
+        { "name": "Alaska" },
+        { "name": "American Samoa" },
+        { "name": "Arizona" },
+        { "name": "Arkansas" }
+      ]
+    }
